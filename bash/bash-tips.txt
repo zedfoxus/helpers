@@ -1,0 +1,22 @@
+# list all keybinding
+bind -p
+
+# some useful keybindings with CTRL key
+a	put cursor at the start of line
+e	put cursor at the end of line
+f	similar to pressing right arrow key
+b	similar to pressing left arrow key
+k	delete information on and after cursor
+u	delete information before cursor
+w	delete prior word
+h	backspace
+d	exit shell if no text; if text is present, simulate delete
+p	show previous command
+n	show next command
+r	reverse index search
+l	clear display
+j	run current command
+c	cancel current command
+/	redo edit
+?	undo edit
+
