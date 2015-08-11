@@ -1,0 +1,14 @@
+ng-app is a directive. Takes DOM ownership and acts only on that block
+
+ng-model is also a directive and binds the value of input field to variable name
+
+ng-bind is also a directive. It binds variable to view. Can use {{ <info here> }} instead of ng-bind
+
+ng-init initializes variable with ng-app. There are better alternatives than this to load variables
+
+ng-controller directive defines the controller
+
+MODULES define Angular JS application
+CONTROLLERS control the application
+
+
