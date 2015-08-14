@@ -1,15 +1,21 @@
-ng-app takes DOM ownership and acts only on that block
+ng-app takes DOM ownership and acts only on that block. It auto-bootstraps application
+It is possible to manually bootstrap like this: 
+angular.bootstrap(document.getElementById('myApp'), ['myApp']);
+
 angular.module(...) creates an application that ng-app relates to
 
-ng-model binds the value of input field to variable name
+ng-model binds the value of input field to variable name, can provide validation, app status (dirty, invalid, error, touched), 
+build css classes and bind html elements to html forms
 
 ng-bind is also a directive. It binds variable to view. Can use {{ <info here> }} instead of ng-bind
 
 ng-init initializes variable with ng-app. There are better alternatives than this to load variables
 
-ng-controller directive defines the controller
+ng-controller directive defines the controller; controls data
 
 ng-repeat is like a for loop
+
+$scope is application object that owns application variables and functions
 
 MODULES define Angular JS application
 CONTROLLERS control the application
