@@ -19,6 +19,8 @@ ng-click binds clicking
 
 ng-src source of img
 
+ng-include acts like server side includes
+
 ng-cloak hides {{ }} curly braces momentarily when page is loading up
 
 $scope is application object that owns application variables and functions
