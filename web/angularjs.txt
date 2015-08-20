@@ -33,6 +33,11 @@ myform.field.$pristine - untouched
 myform.field.$error.email - validates email
 myform.field.$error.required - requires data
 
+angular.lowercase()
+angular.uppercase()
+angular.isString()
+angular.isNumber()
+
 MODULES define Angular JS application
 CONTROLLERS control the application
 
