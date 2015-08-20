@@ -16,6 +16,14 @@ ng-controller directive defines the controller; controls data
 ng-repeat is like a for loop
 
 ng-click binds clicking 
+ng-dbl-click
+ng-mousedown
+ng-mouseenter
+ng-mouseleave
+ng-keydown
+ng-keyup
+ng-keypress
+ng-change
 
 ng-src source of img
 
@@ -39,7 +47,21 @@ angular.lowercase()
 angular.uppercase()
 angular.isString()
 angular.isNumber()
-
+angular.isArray()
+angular.isDate()
+angular.isDefined()
+angular.isElement()
+angular.isFunction()
+angular.isObject()
+angular.isUndefined()
+angular.equals()
+angular.fromJSON()
+angular.toJSON()
+angular.bootstrap()
+angular.element()
+angular.module()
+angular.copy()
+angular.forEach()
 MODULES define Angular JS application
 CONTROLLERS control the application
 
