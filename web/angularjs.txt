@@ -62,7 +62,8 @@ angular.element()
 angular.module()
 angular.copy()
 angular.forEach()
+
 MODULES define Angular JS application
 CONTROLLERS control the application
 
-
+$watchCollection watches a scope field for changes and acts up on it with an anonymous function
