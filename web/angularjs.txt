@@ -25,6 +25,14 @@ $scope is application object that owns application variables and functions
 
 $http is used when working with AJAX
 
+myform.field.$dirty    - touched
+myform.field.$invalid  - invalid data
+myform.field.$valid    - valid data
+myform.field.$pristine - untouched
+
+myform.field.$error.email - validates email
+myform.field.$error.required - requires data
+
 MODULES define Angular JS application
 CONTROLLERS control the application
 
