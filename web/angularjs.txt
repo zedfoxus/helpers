@@ -69,3 +69,5 @@ CONTROLLERS control the application
 $watchCollection watches a scope field for changes and acts up on it with an anonymous function
 $formatters convert model data to something suitable for the view
 $parsers convert view data to something suitable for model
+_ is called lodash
+Underscore.js has many utilities like _.any, _.find that help in traversing through objects
