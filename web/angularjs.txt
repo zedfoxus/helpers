@@ -69,3 +69,8 @@ CONTROLLERS control the application
 $watchCollection watches a scope field for changes and acts up on it with an anonymous function
 $formatters convert model data to something suitable for the view
 $parsers convert view data to something suitable for model
+
+get injector in browser: http://stackoverflow.com/questions/15527832/how-can-i-test-an-an-angularjs-service-from-the-console
+injector = angular.element(document.body).injector()
+injector.get('ServiceName')
+
