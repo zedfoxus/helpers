@@ -74,3 +74,5 @@ get injector in browser: http://stackoverflow.com/questions/15527832/how-can-i-t
 injector = angular.element(document.body).injector()
 injector.get('ServiceName')
 
+Angular comes with jQuery Lite jQLite. One can add their own jQuery library and have Angular use that.
+
