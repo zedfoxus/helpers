@@ -69,7 +69,6 @@ CONTROLLERS control the application
 $watchCollection watches a scope field for changes and acts up on it with an anonymous function
 $formatters convert model data to something suitable for the view
 $parsers convert view data to something suitable for model
-<<<<<<< HEAD
 
 get injector in browser: http://stackoverflow.com/questions/15527832/how-can-i-test-an-an-angularjs-service-from-the-console
 injector = angular.element(document.body).injector()
@@ -77,7 +76,8 @@ injector.get('ServiceName')
 
 Angular comes with jQuery Lite jQLite. One can add their own jQuery library and have Angular use that.
 
+Dependency injection can be done in AngularJS with value, factory, service, provider and constant
+
 =======
 _ is called lodash
 Underscore.js has many utilities like _.any, _.find that help in traversing through objects
->>>>>>> d65cb62aa145d0ef03e58b5035916e8bdc49ebb5
