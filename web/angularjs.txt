@@ -78,6 +78,14 @@ Angular comes with jQuery Lite jQLite. One can add their own jQuery library and 
 
 Dependency injection can be done in AngularJS with value, factory, service, provider and constant
 
-=======
 _ is called lodash
 Underscore.js has many utilities like _.any, _.find that help in traversing through objects
+
+Scope life cycle
+Browser -> receives event -> js callback -> complete -> re-render DOM and wait for more events
+When JS is called, angular does this:
+Enters execution context using $apply to account for modifications and evaluating expressions
+Then $digest is done that examines all $watch expressions and compares with previous value to determine dirty-ness
+Setting of variables like $scope.name='test' doesn't happen immediately. Changes are combined and then $watch is done.
+Changes from $watch go through $digest again
+
