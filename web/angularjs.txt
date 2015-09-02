@@ -89,3 +89,9 @@ Then $digest is done that examines all $watch expressions and compares with prev
 Setting of variables like $scope.name='test' doesn't happen immediately. Changes are combined and then $watch is done.
 Changes from $watch go through $digest again
 
+$scope.users = [ {name:'Matt', age: 20}, {name:'Jon', age: 22}]
+$scope.$watch('users', ...) will only watch for when $scope.users = newArray
+$scope.$watchCollection('users', ...) will watch for above and add/remove/reorder of users
+$scope.$watch('users', ..., true) will watch for above and change in data (expensive!!)
+
+
