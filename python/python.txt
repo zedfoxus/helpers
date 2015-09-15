@@ -1,0 +1,4 @@
+Load a file in python shell
+>>> exec(open('./dir/subdir/file.py').read())
+
+
