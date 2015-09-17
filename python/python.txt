@@ -1,4 +1,11 @@
 Load a file in python shell
 >>> exec(open('./dir/subdir/file.py').read())
 
+Better way of loading file in python shell
+>>> import os
+>>> import sys
+>>> sys.path.append(os.getcwd())
+>>> import directory.subdirectory.file-without-dot-py
 
+If file is changed, do
+>>> reload(filename)
