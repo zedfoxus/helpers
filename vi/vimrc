@@ -8,3 +8,4 @@ set softtabstop=4   " Sets the number of columns for a TAB.
 set autoindent
 set nocompatible	" ConEmu MinGW related
 set backspace=2		" ConEmu MinGW related
+set ruler
